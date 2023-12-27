@@ -16,4 +16,4 @@ ElysianPhoenix is a Phoenix Channels server implementation for ElysiaJS, providi
 
 ### Installation
 
-1. bun install elysianphoenix
+1. bun install elysian-phoenix
