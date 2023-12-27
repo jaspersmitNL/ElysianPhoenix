@@ -1,7 +1,12 @@
 import Elysia from "elysia";
 import { Logger } from "./logger";
 import { ChannelRegistry } from "./registry";
-import { PhoenixMessage, PhoenixProtocol, WS } from "./types";
+import {
+  ElysianPhoenixOptions,
+  PhoenixMessage,
+  PhoenixProtocol,
+  WS,
+} from "./types";
 
 const logger = new Logger("ElysianPhoenix");
 
@@ -101,7 +106,7 @@ export function elysianPhoenix({
   registry = new ChannelRegistry(),
   onOpen = (ws: WS) => true,
   onMessage = (ws: WS, data: any) => true,
-}: any): Elysia {
+}: ElysianPhoenixOptions): Elysia {
   const app = new Elysia();
 
   app.ws(path, {
