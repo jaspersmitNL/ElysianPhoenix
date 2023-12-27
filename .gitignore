@@ -40,3 +40,13 @@ yarn-error.log*
 **/*.log
 package-lock.json
 **/*.bun
+
+dist/
+bun.lockb
+tsconfig.tsbuildinfo
+
+playground/dist
+playground/node_modules
+playground/bun.lockb
+playground/tsconfig.tsbuildinfo
+playground/public/*

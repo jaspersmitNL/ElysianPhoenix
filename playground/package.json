@@ -1,0 +1,25 @@
+{
+  "name": "elysianphoenix-playground",
+  "private": true,
+  "module": "./src/index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/html": "^0.8.0",
+    "@elysiajs/static": "^0.8.1",
+    "elysia": "^0.8.5",
+    "elysianphoenix": "file:../",
+    "esbuild": "^0.19.10",
+    "phoenix": "^1.7.10"
+  },
+  "devDependencies": {
+    "@types/phoenix": "^1.6.4",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

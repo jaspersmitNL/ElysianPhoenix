@@ -1,15 +1,25 @@
-# Elysia with Bun runtime
+# ElysianPhoenix
+
+ElysianPhoenix is a Phoenix Channels server implementation for ElysiaJS, providing a powerful and scalable real-time communication solution.
+
+## Features
+
+- Seamless integration with ElysiaJS.
+- Utilizes Phoenix Channels for reliable and efficient real-time communication.
 
 ## Getting Started
-To get started with this template, simply paste this command into your terminal:
-```bash
-bun create elysia ./elysia-example
-```
 
-## Development
-To start the development server run:
-```bash
-bun run dev
-```
+### Prerequisites
 
-Open http://localhost:3000/ with your browser to see the result.
+- Bun.sh
+- ElysiaJS
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/jaspersmitNL/elysian-phoenix.git
+   bun install
+   bun run build
+   ```
