@@ -69,7 +69,6 @@ function handleMessage(
 
   if (!channel) {
     logger.error(`Channel ${topic} not found`);
-    console.log(message);
     return;
   }
 
