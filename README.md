@@ -16,10 +16,4 @@ ElysianPhoenix is a Phoenix Channels server implementation for ElysiaJS, providi
 
 ### Installation
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/jaspersmitNL/elysian-phoenix.git
-   bun install
-   bun run build
-   ```
+1. bun install elysianphoenix
