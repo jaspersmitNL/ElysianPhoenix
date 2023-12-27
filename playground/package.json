@@ -1,5 +1,5 @@
 {
-  "name": "elysianphoenix-playground",
+  "name": "elysian-phoenix-playground",
   "private": true,
   "module": "./src/index.ts",
   "type": "module",
@@ -11,7 +11,7 @@
     "@elysiajs/html": "^0.8.0",
     "@elysiajs/static": "^0.8.1",
     "elysia": "^0.8.5",
-    "elysianphoenix": "file:../",
+    "elysian-phoenix": "file:../",
     "esbuild": "^0.19.10",
     "phoenix": "^1.7.10"
   },

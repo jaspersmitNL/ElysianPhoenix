@@ -1,7 +1,7 @@
 import { html } from "@elysiajs/html";
 import staticPlugin from "@elysiajs/static";
 import Elysia from "elysia";
-import { ChannelRegistry, elysianPhoenix } from "elysianphoenix";
+import { ChannelRegistry, elysianPhoenix } from "elysian-phoenix";
 import esbuild from "esbuild";
 import { RoomChannel } from "./room";
 
@@ -18,6 +18,13 @@ app.use(
   elysianPhoenix({
     path: "/websocket",
     registry: new ChannelRegistry().register("room:lobby", new RoomChannel()),
+
+    onOpen: (ws) => {
+      return true;
+    },
+    onMessage: (ws, data) => {
+      return true;
+    },
   })
 );
 

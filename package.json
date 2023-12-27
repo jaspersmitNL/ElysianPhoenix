@@ -1,5 +1,5 @@
 {
-  "name": "elysianphoenix",
+  "name": "elysian-phoenix",
   "module": "./src/index.ts",
   "main": "./dist/index.js",
   "type": "module",

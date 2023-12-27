@@ -1,4 +1,4 @@
-import { Channel, JoinResponse, MessageResponse, WS } from "elysianphoenix";
+import { Channel, JoinResponse, MessageResponse, WS } from "elysian-phoenix";
 
 export class RoomChannel extends Channel {
   onJoin(topic: string, message: any, ws: WS): JoinResponse {
